@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REDIHAT LABS HACKBOX Web Flasher</title>
+    <!-- Import Outfit and JetBrains Mono Fonts from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Outfit:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <!-- Cache buster updated to force reload of CSS changes -->
+    <link rel="stylesheet" href="style.css?v=2.0.4">
+    <!-- ESP Web Tools component -->
+    <script type="module" src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js?module"></script>
+</head>
+<body>
+    <div class="background-glow"></div>
+    
+    <div class="container">
+        <header>
+            <img src="logo.png" alt="REDIHAT LABS Logo" class="header-logo">
+            <div class="logo">⚡ REDIHAT LABS HACKBOX ⚡</div>
+            <h1>Hackbox Web Flasher</h1>
+            <p class="subtitle">Program RF-Clown, nRFBox, nyanBOX, BWifiKill, and Hackbox CK42X firmware to your ESP32 multi-tool directly from the browser.</p>
+        </header>
+
+        <main>
+            <!-- Step 1: Select Firmware -->
+            <section class="selection-section">
+                <h2>1. Select Auditing Firmware</h2>
+                <div class="firmware-grid">
+                    
+                    <!-- Card 1: RF-Clown -->
+                    <div class="firmware-card" data-fw="rf-clown">
+                        <div class="card-glow"></div>
+                        <div class="card-content">
+                            <span class="badge badge-clown">RF-Clown</span>
+                            <h3>RF-Clown (v2.0.0)</h3>
+                            <p class="description">Sub-GHz RF transceiver tool. Utilizes the CC1101 module for scanning, playing, and analyzing RF signals.</p>
+                            <div class="specs">
+                                <span>📁 Size: 681 KB (Merged)</span>
+                                <span>🔧 Chip: ESP32</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2: nRFBox -->
+                    <div class="firmware-card" data-fw="nrfbox">
+                        <div class="card-glow"></div>
+                        <div class="card-content">
+                            <span class="badge badge-nrf">nRFBox</span>
+                            <h3>nRFBox (v2.7.2)</h3>
+                            <p class="description">2.4GHz transceiver suite. Focuses on NRF24L01+ signal sniffing, jamming, and packet testing.</p>
+                            <div class="specs">
+                                <span>📁 Size: 1.69 MB (Merged)</span>
+                                <span>🔧 Chip: ESP32</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3a: nyanBOX DIO -->
+                    <div class="firmware-card" data-fw="nyanbox-dio">
+                        <div class="card-glow"></div>
+                        <div class="card-content">
+                            <span class="badge badge-nyanbox">nyanBOX DIO</span>
+                            <h3>nyanBOX (DIO Mode)</h3>
+                            <p class="description">Standard flash mode. Auto-synced and merged from the official repository every 6 hours.</p>
+                            <div class="redirect-card-footer" style="padding-top: 0.5rem;">
+                                <a href="https://drive.google.com/drive/u/0/folders/1iStPBdfweuI77CcMu3Bus1OL7F0l-HkU" target="_blank" class="small-redirect-btn" onclick="event.stopPropagation();">
+                                    Custom Drive ↗
+                                </a>
+                            </div>
+                            <div class="specs">
+            
+
